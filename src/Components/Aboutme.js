@@ -7,7 +7,7 @@ import img1 from './Assets/table.webp'
 function Aboutme() {
   return (
     <div class="About-me-sec" id="about">
-      <p class="Heading-1"> Me :)</p>
+      <p class="Heading-1">About Me :)</p>
       <div class="Explanation-sec flex">
         <div class="img-sec">
           <img src={img1} class="tableimg"></img>
