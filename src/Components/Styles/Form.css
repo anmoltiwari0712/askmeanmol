@@ -1,0 +1,77 @@
+.Form-sec {
+  margin-top: 250px;
+  gap: 180px;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.submit-btn {
+  width: 109px;
+  height: 37px;
+  flex-shrink: 0;
+  background-color: #de6e4b;
+  border: none;
+  border-radius: 5px;
+}
+.txt-btn {
+  width: 430px;
+  height: 150px;
+  border-radius: 10px;
+  border: 1.5px solid #000;
+  background: #fff;
+}
+.email-btn {
+  width: 430px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1.5px solid #000;
+  background: #fff;
+}
+.name-btn {
+  width: 430px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1.5px solid #000;
+  background: #fff;
+}
+::placeholder {
+  padding-left: 10px;
+}
+input[type="text"] {
+  text-indent: 10px; 
+}
+input[type="email"] {
+  text-indent: 10px; 
+}
+textarea {
+  text-indent: 10px; 
+  padding-top: 10px;
+}
+.girl-img {
+  width: 308px;
+  height: 304px;
+}
+.img-div2 {
+  margin-bottom: 60px;
+  padding-top: 60px;
+}
+.social-imgs {
+  width: 18.75px;
+  height: 18.75px;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}

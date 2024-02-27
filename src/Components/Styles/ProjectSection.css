@@ -1,0 +1,70 @@
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1100px;
+    background-color: #fafafa;
+    
+  }
+
+.flex{
+    display: flex;
+    align-items: center;
+    /* gap: 40px; */
+}
+  
+.Heading-1{
+    color: var(--light-text-color, #333);
+    text-align: center;
+/* Heading/Heading 2 */
+    font-family: Cabin Sketch;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143.203%; /* 71.602px */
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #F5F2ED 0.11%, #F4F5F0 52.04%, #EDF5F3 99.82%, #EDF5F3 99.82%);
+    padding: 8px;
+    align-items: center;
+    margin-bottom: 40px; /* Adjust spacing between buttons and project cards */
+  }
+  
+button {
+    margin: 0 5px;
+    padding: 2px 16px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+  }
+button.active{
+    border-radius: 14px;
+    border: 1px solid #FFF;
+    background: #F5F7F7;
+    box-shadow: 0px 4px 10px 0px rgba(10, 19, 9, 0.12);
+}
+
+  
+
+  
+  .project-cards {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    /* Additional styles for the project cards container */
+    /* Adjust spacing, alignment, or other layout-related styles */
+  }
+  
+.Card-dec-1{
+    gap: 40px;
+}

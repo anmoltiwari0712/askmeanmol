@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.About-me-sec {
+  background-color: #fafafa;
+}
+.Heading-1 {
+  color: var(--light-text-color, #333);
+  text-align: center;
+  font-family: Cabin Sketch;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143.203%; 
+  margin: 0;
+}
+.table-img {
+  width: 409px;
+  height: 306px;
+  flex-shrink: 0;
+}
+
+.Explanation-sec {
+  gap: 40px;
+}
+.img-sec {
+  padding-left: 40px;
+  padding-bottom: 60px;
+}
+.txt-sec {
+  width: 60%;
+  margin: 0;
+  line-height: 1.6;
+  text-align: justify;
+  padding-inline: 20px;
+  padding-top: 0;
+}
+
+.txt {
+  margin-bottom: 20px;
+  align-self: stretch;
+  color: #121212;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  letter-spacing: -0.1px;
+}

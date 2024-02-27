@@ -1,0 +1,66 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+.main-nav{
+    justify-content: space-between;
+    padding-inline: 16px;
+    /* padding-top: 8px; */
+}
+.items{
+    list-style: none;
+    text-decoration: none;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn-design{
+    padding: 2px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    border: 2px solid #CD88EC;
+    background-color: transparent;
+    color: #CD88EC;
+}
+.company-logo{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    color: black;
+}
+.hover-links{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.download-btn-hover{
+    padding: 2px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    border: 2px solid #CD88EC;
+    background-color: transparent;
+    color: #CD88EC;
+}
+.download-btn-hover:hover{
+    background-color: #CD88EC;
+    color: white;
+}
+.hover-links:hover{
+    font-weight: 800;
+}

@@ -1,0 +1,58 @@
+.card {
+    width: 462px;
+    height: 160px;
+    display: flex;
+    padding-top: 24px;
+    padding-left: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background: #FFF;
+  }
+  
+  .progress-bar {
+    height: 5px;
+    background-color: #3C3C43;; /* Change color or add more styles as needed */
+    border-radius: 5px;
+  }
+  
+.progress-text{
+  color: rgba(102, 102, 102, 0.80);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Source Code Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #3C3C43;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Source Code Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  
+.skilln{
+  color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Source Code Pro;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+  

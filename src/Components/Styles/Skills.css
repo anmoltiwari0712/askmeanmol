@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.heading-sec {
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.skills-sec-1 {
+  gap: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.Heading-1 {
+  color: var(--light-text-color, #333);
+  text-align: center;
+  font-family: Cabin Sketch;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143.203%; /* 71.602px */
+  margin: 0;
+}
+
+.piggy-img {
+  width: 60px;
+  height: 75px;
+  padding-bottom: 20px;
+}
+.skills-sec-2 {
+  padding-top: 40px;
+  justify-content: center;
+}
+.scope-img {
+  width: 278.57px;
+  height: 245px;
+  /* opacity: 0.8px */
+}

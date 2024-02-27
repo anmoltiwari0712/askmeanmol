@@ -1,0 +1,46 @@
+.work-par {
+  width: 1055px;
+  color: var(--light-text-color, #333);
+  text-align: center;
+  margin-left: 130px;
+  margin-right: 130px;
+  font-family: Varela Round;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+  padding-bottom: 24px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.custom-prev-btn {
+  width: 25px;
+  height: 20px;
+}
+.prev-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  display: flex;
+  border-radius: 50px;
+  border: 1px solid #000;
+}
+
+.carousel-container {
+  width: 85%;
+  margin-left: 120px;
+}
+.arw-btns {
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.work-sec {
+  height: 650px;
+}

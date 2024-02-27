@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap");
+.flex {
+  display: flex;
+  align-items: center;
+}
+.hero-sec {
+  background-color: #ffdccb;
+  margin: 0;
+  background-image: url(background.png);
+  background-size: 1420px;
+}
+
+p {
+  font-family: "Cabin Sketch", sans-serif;
+  margin: 0;
+}
+.heading1 {
+  color: #000;
+  font-family: Cabin Sketch;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+}
+.heading2 {
+  color: #000;
+  font-family: Cabin Sketch;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  overflow: hidden;
+  width: 33.33%; 
+}
+.Heading-sec {
+  margin-left: -100px;
+}
+
+.image-container img {
+  width: 100%;
+  transform: translateX(-30%); 
+}
+.image-container-2 {
+  margin-left: auto;
+  padding-top: 85px;
+  width: 30%; 
+}
