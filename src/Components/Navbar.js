@@ -6,9 +6,9 @@ const downloadCV = () => {
   // Steps to modify dropbox url
   // Replace 'www.dropbox.com'with 'dl.dropboxusercontent.com'
   //set &dl=0 to &dl=1
-
+// https://dl.dropboxusercontent.com/scl/fi/93o9hgqezapssrx60fwfe/Anmol-Tiwari_Resume.pdf?rlkey=qs5dy0yi42v2fqfwkbq88kzre&dl=1
   const cvUrl =
-    "https://dl.dropboxusercontent.com/scl/fi/mwlrdstdq6hex2unhs2oj/Anmol_Resume.pdf?rlkey=fubef7jzffuk9hmb1w4r2dwbh&dl=1"; // Replace with the modified Dropbox direct download link
+    "https://dl.dropboxusercontent.com/scl/fi/93o9hgqezapssrx60fwfe/Anmol-Tiwari_Resume.pdf?rlkey=qs5dy0yi42v2fqfwkbq88kzre&dl=1"; // Replace with the modified Dropbox direct download link
   fetch(cvUrl)
     .then((response) => response.blob())
     .then((blob) => {
